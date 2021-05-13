@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Menu Responsivo </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id = "body-pd">
+    <div class="l-navbar" id="navbar">
+        <nav class="nav">
+            <div>
+                <div class="nav__brand">
+                    <i class="fas fa-bars nav__toggle nav__icon" id="nav-toggle"></i>
+                    <a href="#" class="nav__logo"> UN1C0DER </a>
+                </div>
+                <div class="nav__list">
+                    <a href="#" class="nav__link active">
+                        <i class="fas fa-home nav__icon"></i>
+                        <span class="nav__name"> Dashboard </span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <i class="fas fa-comments nav__icon"></i>
+                        <span class="nav__name"> Menssenger </span>
+                    </a>
+                    <div class="nav__link collapse">
+                        <i class="fas fa-folder nav__icon"></i>
+                        <span class="nav__name"> Projects </span>
+                        <i class="fas fa-chevron-down nav__icon collapse__link"></i>
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink"> Data </a>
+                            <a href="#" class="collapse__sublink"> Group </a>
+                            <a href="#" class="collapse__sublink"> Members </a>
+                        </ul>
+                    </div>
+                    <a href="#" class="nav__link">
+                        <i class="fas fa-chart-pie nav__icon"></i>
+                        <span class="nav__name"> Analytics </span>
+                    </a>
+                    <div class="nav__link collapse">
+                        <i class="fas fa-user-friends nav__icon"></i>
+                        <span class="nav__name"> Team </span>
+                        <i class="fas fa-chevron-down collapse__link"></i>
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink"> Data </a>
+                            <a href="#" class="collapse__sublink"> Group </a>
+                            <a href="#" class="collapse__sublink"> Members </a>
+                        </ul>
+                    </div>
+                    <a href="#" class="nav__link">
+                        <i class="fas fa-cog nav__icon"></i>
+                        <span class="nav__name"> Settings </span>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="nav__link">
+                <i class="fas fa-sign-out-alt nav__icon"></i>
+                <span class="nav__name"> Log out </span>
+            </a>
+        </nav>
+    </div>
+
+    <h1> Dashboard </h1>
+
+    <script src="https://kit.fontawesome.com/367a536935.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
